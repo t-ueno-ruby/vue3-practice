@@ -62,6 +62,32 @@ DOMの更新を自動化するデータバインディングを行うには テ�
   })
 ```
 
+### v-for
+
+繰り返し描画する際に使用する
+
+```html
+<b>colors</b>
+<ol>
+    <li v-for="color in colors">{{ color }}</li>
+</ol>
+<b>user</b>
+<ul>
+    <li v-for="value in user">{{ value }}</li>
+</ul>
+```
+
+```js
+        <b>colors</b>
+        <ol>
+            <li v-for="color in colors">{{ color }}</li>
+        </ol>
+        <b>user</b>
+        <ul>
+            <li v-for="(value, key) in user">{{ key}} : {{ value }}</li>
+        </ul>
+```
+
 ## リアクティブ
 
 リアクティブというのは 日本語で言うと反応的といった意味になります  
