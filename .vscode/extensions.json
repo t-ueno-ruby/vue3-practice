@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "vue.volar",
+        "ritwickdey.liveserver", // how-to-use-vue3フォルダ用
+    ]
+}
