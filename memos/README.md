@@ -38,8 +38,28 @@ DOMの更新を自動化するデータバインディングを行うには テ�
 
 属性へのデータバインディングにはv-bindを使用する
 
-```js
+```html
 <input type="text" v-bind:value="message">
+```
+
+```js
+  data: () => ({
+    message: 'hello'
+  })
+```
+
+### v-if
+
+条件分岐によって要素の表示・非表示を切り替えることができるディレクティブです
+
+```html
+<p v-if="toggle">Hello</p>
+```
+
+```js
+  data: () => ({
+    toggle: true
+  })
 ```
 
 ## リアクティブ
