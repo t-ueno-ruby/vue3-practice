@@ -2,6 +2,7 @@
   "recommendations": [
     "vue.volar",
     "ritwickdey.liveserver", // how-to-use-vue3フォルダ用
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
   ]
 }
