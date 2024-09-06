@@ -71,6 +71,7 @@ Vue.jsに何らかの指示を行う仕組みです
 ディレクティブの例
 
 - v-bind
+    - v-bind:class
 - v-if
 - v-show
 - v-for
@@ -92,6 +93,10 @@ Vue.jsに何らかの指示を行う仕組みです
     message: 'hello'
   })
 ```
+
+#### v-bind:class
+
+htmlでcssのクラス属性をデータバインディングする
 
 ### v-if
 
