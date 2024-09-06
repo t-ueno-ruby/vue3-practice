@@ -8,7 +8,16 @@
   </head>
 
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h2>todoアプリ</h2>
+      <form v-on:submit.prevent>
+        <input type="text" v-model="newItem" />
+        <button v-on:click="addItem">追加</button>
+      </form>
+
+      デバッグ用
+      <pre>{{$data}}</pre>
+    </div>
     <script src="https://unpkg.com/vue@3.1.5"></script>
     <script src="js/main.js"></script>
   </body>

@@ -1,8 +1,20 @@
 const app = Vue.createApp({
   // ここにオプションを追加していく
   data: () => ({
-
+    newItem: '',
+    todos: [],
   }),
-})
+  methods: {
+    addItem: function (event) {
+      if (this.newItem === '') return;
+      let todo = {
+        item: this.newItem,
+      };
+      this.todos.push(todo);
 
-app.mount('#app')
+      this.newItem = '';
+    },
+  },
+});
+
+app.mount('#app');
