@@ -108,7 +108,7 @@ const name = ref("田中太郎");
 主なディレクティブは以下。
 
 - v-bind: 属性にデータバインドする
-- v-on
+- v-on: HTMLタグにイベントリスナを設定する
 - v-model
 - v-html
 - v-pre
@@ -117,3 +117,34 @@ const name = ref("田中太郎");
 - v-if
 - v-show
 - v-for
+
+#### v-bind -50
+
+##### 　属性値のない属性へのバインド -54
+
+##### v-bind:styleのスタイルプロパティ
+
+通常はキャメル記法
+
+```js
+v-bind:style="{color: msgTextColor, backgroundColor: msgBgColor}"
+```
+
+ケバブ記法でも書ける
+
+```js
+v-bind:style="{color: msgTextColor, 'background-color': msgBgColor}"
+```
+
+##### v-bind:class
+
+#### v-on -70
+
+```js
+// 通常
+<button v-on:click="onButtonClick">クリック!</button>
+// 省略形
+<button @click="onButtonClick">クリック!</button>
+```
+
+##### v-onのイベント -72
