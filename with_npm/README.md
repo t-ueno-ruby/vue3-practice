@@ -148,3 +148,19 @@ v-bind:style="{color: msgTextColor, 'background-color': msgBgColor}"
 ```
 
 ##### v-onのイベント -72
+
+##### v-onの修飾子 -76
+
+- stop
+- capture
+- self
+- prevent
+- passive
+- once
+
+## DOMイベントのフェーズ -76
+
+1. キャプチャフェーズ
+1. ターゲットフェーズ
+1. バブリングフェーズ
+
