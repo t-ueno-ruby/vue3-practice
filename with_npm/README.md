@@ -82,3 +82,21 @@ const name = ref("田中太郎");
 > [Priority B Rules: Strongly Recommended | Vue.js](https://vuejs.org/style-guide/rules-strongly-recommended.html#simple-expressions-in-%E3%81%AA%E3%81%8A%E3%80%81%E3%81%93%E3%81%AE%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89%E3%81%AF%E3%80%81%E6%9C%AC%E6%9B%B8%E4%B8%AD%E3%81%A7%E3%82%82%E5%BF%85%E8%A6%81%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%A6%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82)
 
 ### マスタッシュ構文内に式を書くのは極力避ける
+
+## Vueプロジェクトの構成と動作原理 -43
+
+### Vueプロジェクトのファイル構成
+
+### distフォルダ
+
+デプロイ用ファイル一式が格納されている
+
+### publicフォルダとindex.html
+
+### Vueプロジェクトの動作原理 -46
+
+### Vueプロジェクト内ファイルのコードスタイル -47
+
+- 文字列がシングルクォーテーションで囲まれている
+- 文末のセミコロンがない
+
