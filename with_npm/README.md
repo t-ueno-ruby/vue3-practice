@@ -158,6 +158,36 @@ v-bind:style="{color: msgTextColor, 'background-color': msgBgColor}"
 - passive
 - once
 
+###### クリックイベントとキーイベントの修飾子
+
+キーイベントの修飾子
+
+- enter
+- tab
+- delete
+- esc
+- space
+- up
+- down
+- left
+- right
+
+clickイベントの修飾子
+
+- left
+- right
+- middle
+
+システム修飾子
+
+- ctrl
+- alt
+- shift
+- meta
+
+exact修飾子  
+キーが単独で押されたときのみに限定したい場合に使用する
+
 ## DOMイベントのフェーズ -76
 
 1. キャプチャフェーズ
